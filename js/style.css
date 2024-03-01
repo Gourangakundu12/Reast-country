@@ -1,0 +1,23 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* padding: 20px; */
+    text-align: center;
+}
+
+.country {
+    border: 3px solid hotpink;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.country img {
+    width: 200px;
+    
+}
+h2{
+    text-align: center;
+    /* color: chartreuse; */
+}
